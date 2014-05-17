@@ -40,7 +40,7 @@ trait ElementTagTrait {
 	 * @return type
 	 */
 	function getAlias($tag){
-		if( $key = array_search($tag, $this->tagAliases) ){
+		if( ($key = array_search($tag, $this->tagAliases)) !== false ){
 			return $this->tagAliases[ $key ];
 		}
 		return false;
