@@ -1,5 +1,5 @@
 {
-	"name"        : "henderjon/chevron.html",
+	"name"        : "henderjon/chevron-html",
 	"type"        : "library",
 	"description" : "a simple set of useful tools",
 	"homepage"    : "http://github.com/henderjon/chevron.html",
@@ -16,7 +16,7 @@
 	},
 	"require": {
 		"php"                      : ">=5.4.0",
-		"henderjon/chevron.filters": "1.*"
+		"henderjon/chevron-filters": "1.*"
 	},
 	"require-dev": {
 		"funkatron/funit" : "dev-master"
