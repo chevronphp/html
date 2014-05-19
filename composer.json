@@ -16,7 +16,7 @@
 	},
 	"require": {
 		"php"                      : ">=5.4.0",
-		"henderjon/chevron-filters": "1.*"
+		"henderjon/chevron-filters": "2.*"
 	},
 	"require-dev": {
 		"funkatron/funit" : "dev-master"
