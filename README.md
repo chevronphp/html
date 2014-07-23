@@ -27,7 +27,13 @@ See LICENSE.md for the [BSD-3-Clause](http://opensource.org/licenses/BSD-3-Claus
   - Reading on [Semantic Versioning](http://semver.org/)
   - Reading on [Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
 
-## cool kids badges
+### cool kids badges
+
+#### travis
+
+[![Build Status](https://travis-ci.org/henderjon/chevron.html.svg?branch=master)](https://travis-ci.org/henderjon/chevron.html)
+
+#### scruitinizer
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/henderjon/chevron.html/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.html/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/henderjon/chevron.html/badges/build.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.html/build-status/master)
