@@ -1,9 +1,6 @@
 # chevron.html
 
-Chevron aims to be a 'simple set of useful tools'. This means that it
-exists as a humble collection of code I've written and found quite useful.
-
-Chevron.html is one attempt (of many) to make the act of writing HTML slightly
+Html is one attempt (of many) to make the act of writing HTML slightly
 safer and easier. It offers elements as objects with properties and a system
 of using PHP's magic __call() to create them quickly and inline.
 
@@ -18,12 +15,7 @@ If there isn't an examples dir, look through the tests.
 
 # installation
 
-Using [composer](http://getcomposer.org/) `"require" : { "henderjon/chevron-html": "2.*" }`
-
-# where is version 1.*?
-
-Packagist (an important component to the composer ecosystem) prefers dashes as separators (I was
-using dots). I had to update all the package names accordingly.
+Using [composer](http://getcomposer.org/) `"require" : { "henderjon/chevron-html": "~2.0" }`
 
 # license
 
@@ -33,7 +25,13 @@ See LICENSE.md for the [BSD-3-Clause](http://opensource.org/licenses/BSD-3-Claus
 
   - The [Packagist archive](https://packagist.org/packages/henderjon/chevron-html)
   - Reading on [Semantic Versioning](http://semver.org/)
-  - Reading on[Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
+  - Reading on [Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
+
+## cool kids badges
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/henderjon/chevron.html/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.html/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/henderjon/chevron.html/badges/build.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.html/build-status/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/henderjon/chevron.html/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/henderjon/chevron.html/?branch=master)
 
 
 
