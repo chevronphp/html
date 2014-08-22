@@ -9,6 +9,7 @@ the same task) it is that for all the buzz words I've tried to incorporate (OOP,
 Di, testable, blah blah blah) it remains a very customized solution and using it
 will couple an application to this (or that) specific toolset.
 
+I think the API is what I want, I'm just not sold on the code.
 
 Peruse the tests or, if present, the examples directory to see usage.
 
