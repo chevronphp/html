@@ -9,7 +9,7 @@ trait EncodeEntitiesTrait {
 	 * @return string
 	 */
 	function toEntity($string){
-		return \htmlentities($string, \ENT_COMPAT | \ENT_HTML5);
+		return \htmlentities($string);
 	}
 
 }
