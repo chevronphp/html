@@ -1,5 +1,5 @@
 {
-	"name"        : "henderjon/chevron-html",
+	"name"        : "chevron/html",
 	"type"        : "library",
 	"description" : "one attempt to make HTML easier/safer",
 	"homepage"    : "http://github.com/chevronphp/html",
