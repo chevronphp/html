@@ -9,9 +9,7 @@ use \Chevron\Filters\Traits\FilterEntitiesTrait as EntityFilter;
  */
 class Select {
 
-	use EntityFilter{
-		EntityFilter::filter as toEntity;
-	}
+	use Traits\EncodeEntitiesTrait;
 	use Traits\ElementAttributeTrait;
 	use Traits\ElementInnerHTMLTrait;
 	use Traits\ElementRenderTrait;
