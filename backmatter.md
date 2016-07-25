@@ -5,11 +5,11 @@
 
 #### version
 
-[![Latest Stable Version](https://poser.pugx.org/henderjon/chevron-html/v/stable.svg)](https://packagist.org/packages/henderjon/chevron-html)
+[![Latest Stable Version](https://poser.pugx.org/chevron/html/v/stable.svg)](https://packagist.org/packages/chevron/html)
 
 #### license
 
-[![License](https://poser.pugx.org/henderjon/chevron-html/license.svg)](https://packagist.org/packages/henderjon/chevron-html)
+[![License](https://poser.pugx.org/chevron/html/license.svg)](https://packagist.org/packages/chevron/html)
 
 #### travis-ci
 
@@ -17,7 +17,7 @@
 
 #### hhvm
 
-[![HHVM Status](http://hhvm.h4cc.de/badge/henderjon/chevron-html.png)](http://hhvm.h4cc.de/package/henderjon/chevron-html)
+[![HHVM Status](http://hhvm.h4cc.de/badge/chevron/html.png)](http://hhvm.h4cc.de/package/chevron/html)
 
 #### scruitinizer-ci
 
@@ -27,6 +27,6 @@
 
 #### links
 
-  - The [Packagist archive](https://packagist.org/packages/henderjon/chevron-html)
+  - The [Packagist archive](https://packagist.org/packages/chevron/html)
   - Reading on [Semantic Versioning](http://semver.org/)
   - Reading on [Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
