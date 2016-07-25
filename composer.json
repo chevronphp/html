@@ -2,7 +2,7 @@
 	"name"        : "henderjon/chevron-html",
 	"type"        : "library",
 	"description" : "one attempt to make HTML easier/safer",
-	"homepage"    : "http://github.com/henderjon/chevron.html",
+	"homepage"    : "http://github.com/chevronphp/html",
 	"license"     : "BSD-3-Clause",
 	"authors"     : [
 		{
@@ -15,8 +15,7 @@
 		"irc" : "irc://irc.freenode.org/henderjon"
 	},
 	"require": {
-		"php"                      : "~5.4",
-		"henderjon/chevron-filters": "~2.0"
+		"php" : "~5.4"
 	},
 	"require-dev": {
 		"phpunit/phpunit" : "~4.0"
