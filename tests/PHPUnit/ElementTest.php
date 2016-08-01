@@ -12,7 +12,7 @@ class ElementTest extends PHPUnit_Framework_TestCase {
 		$dispatcher = new HTML\ElementDispatcher;
 
 		$el = $dispatcher->div("This is a <bad>data string</bad>");
-		$this->assertEquals("<div>This is a &lt;bad&gt;data string&lt/bad&gt;</div>", $el->render());
+		$this->assertEquals("<div>This is a &lt;bad&gt;data string&lt;/bad&gt;</div>", $el->render());
 	}
 
 	/**
