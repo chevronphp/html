@@ -15,7 +15,7 @@ Peruse the tests or, if present, the examples directory to see usage.
 
 See [packagist](https://packagist.org/packages/chevronphp/html) for version/installation info.
 
-[![Latest Stable Version](https://poser.pugx.org/chevronphp/html/v/stable.svg)](https://packagist.org/packages/chevronphp/html)
-[![Build Status](https://travis-ci.org/henderjon/chevronphp/html.svg?branch=master)](https://travis-ci.org/henderjon/chevronphp/html)
+[![Latest Stable Version](https://poser.pugx.org/chevronphp/html/v/stable.svg)](https://packagist.org/packages/chevron/html)
+[![Build Status](https://travis-ci.org/chevronphp/html.svg?branch=master)](https://travis-ci.org/chevronphp/html)
 
 
