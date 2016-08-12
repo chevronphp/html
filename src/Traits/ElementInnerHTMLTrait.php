@@ -15,6 +15,10 @@ trait ElementInnerHTMLTrait {
 	 * @return
 	 */
 	function setInnerHTML($innerHTML){
+		if(!is_array($innerHTML)){
+			$innerHTML = [$innerHTML];
+		}
+
 		$this->innerHTML = $innerHTML;
 	}
 
@@ -23,7 +27,15 @@ trait ElementInnerHTMLTrait {
 	 * @return string
 	 */
 	protected function marshalInnerHTML(){
-		return $this->toEntity($this->innerHTML);
+		if(empty($this->innerHTML)){
+			return "";
+		}
+
+		$innerHTML = "";
+		foreach($this->innerHTML as $entry){
+			$innerHTML .= is_string($entry) ? $this->toEntity($entry) : $entry->__toString();
+		}
+		return $innerHTML;
 	}
 
 	/**
